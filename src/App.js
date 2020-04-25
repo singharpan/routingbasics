@@ -5,7 +5,8 @@ import Products from "./products";
 import Contact from "./contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-//Switch is used to exact show page when exact url is pass and stop
+
+//Route and Switch are Matching components
 function App() {
   return (
     <BrowserRouter>
