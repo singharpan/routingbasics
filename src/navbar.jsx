@@ -8,19 +8,19 @@ const Navbar = () => {
     <React.Fragment>
       <ul>
         <li class="active">
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Products</a>
+          <Link to="products">Products</Link>
         </li>
         <li>
-          <a href="#">Services</a>
+          <Link to="services">Services</Link>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <Link to="about">About Us</Link>
         </li>
         <li>
-          <a href="#">Contact Us</a>
+          <Link to="contact">Contact Us</Link>
         </li>
       </ul>
     </React.Fragment>
