@@ -11,9 +11,10 @@ function App() {
     <BrowserRouter>
       <div>
         <Navar />
-        <Home />
-        <Products />
 
+        <Route path="/home" component={Home} />
+
+        <Route path="/products" component={Products} />
         <Route path="/contact" component={Contact} />
       </div>
     </BrowserRouter>
