@@ -3,7 +3,7 @@ import Navar from "./navbar";
 import Home from "./home";
 import Products from "./products";
 import Contact from "./contact";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom"; //Route is uses to give redirection(route) to elements
 import "./App.css";
 
 function App() {
