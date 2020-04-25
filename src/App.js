@@ -13,7 +13,8 @@ function App() {
         <Navar />
         <Home />
         <Products />
-        <Contact />
+
+        <Route path="/contact" component={Contact} />
       </div>
     </BrowserRouter>
   );
