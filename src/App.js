@@ -3,6 +3,7 @@ import Navar from "./navbar";
 import Home from "./home";
 import Products from "./products";
 import Contact from "./contact";
+import { BrowserRouter } from "react-router-dom"; //to use router on browser
 import "./App.css";
 
 function App() {
