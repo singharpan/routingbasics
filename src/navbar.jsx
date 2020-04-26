@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <ul>
-        <li class="active">
+        <li className="active">
           <Link to="/">Home</Link>
         </li>
         <li>
